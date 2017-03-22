@@ -48,3 +48,7 @@ article{
 .indexarticle{
     margin: 2px 9px 3px 1px;
 }
+
+#aboutarticle{
+    font-style: italic;
+}
