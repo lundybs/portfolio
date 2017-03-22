@@ -1,16 +1,15 @@
-﻿body {
-  
-}
-#navbar{
+﻿#navbar{
     color: crimson;
     padding: .25rem;
     background-color: lightgrey;
+    border: groove 2px;
 }
 
 .footsection{
     padding: .5rem;
     background-color: lightgray;
     height: 3rem;
+    border: 2px solid green;
 }
 
 #copyright{
@@ -19,7 +18,7 @@
 }
 
 header{
-    
+    border: double 5px green;
     padding-top: 10px;
     background-color: black;
 }
@@ -29,15 +28,23 @@ h1{
     color: white;
 }
 
-main{
+#indexmain{
     margin-left: .5rem;
+    margin-right: .55rem;
+    border: dashed 5px;
+    padding: 5px 10px;
 }
 
 article{
-    
     font-size: 20px;
 }
 
-.aboutmain{
-padding: .4em;
+#aboutmain{
+    text-align: justify;
+    background-color: antiquewhite;
+    padding: .4em;
+}
+
+.indexarticle{
+    margin: 2px 9px 3px 1px;
 }
