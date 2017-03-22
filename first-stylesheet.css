@@ -2,6 +2,7 @@
   
 }
 #navbar{
+    color: crimson;
     padding: .25rem;
     background-color: lightgrey;
 }
@@ -18,7 +19,7 @@
 }
 
 header{
-    text-align: justify;
+    
     padding-top: 10px;
     background-color: black;
 }
@@ -30,4 +31,13 @@ h1{
 
 main{
     margin-left: .5rem;
+}
+
+article{
+    
+    font-size: 20px;
+}
+
+.aboutmain{
+padding: .4em;
 }
