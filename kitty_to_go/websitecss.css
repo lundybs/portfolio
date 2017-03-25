@@ -1,0 +1,120 @@
+﻿body{
+    width: 45rem;
+}
+
+#headerlink {
+    text-align: right;
+    color: red;
+}
+
+#maintitle{
+    color: white;
+}
+
+.h3{
+    color: grey;
+}
+
+#storytext{
+    padding: 1px;
+    font: 16px arial, verdana;
+}
+
+#catofweek{
+    width: 80%;
+    height: 30%;
+}
+
+main{
+    height: 29rem;
+}
+
+#fanfav{
+    width: 80%;
+    align-self: center;
+    height: 30%;
+}
+
+aside{
+    border: 1px solid black;
+    padding: 0px 0px 10px 10px;
+    margin: 20px 4px 11px 10px;
+    float: right;
+    width: 15em;
+    text-align:center;
+    font: bold 14px;
+    
+}
+
+#catprofile{
+    width: auto;
+    padding: 1px;
+}
+
+#glassescat{
+    width: 20em;
+}
+
+#ledgecat{
+    width: 20em;
+}
+
+#copyright{
+    text-align: center;
+    color: grey
+}
+
+.topbanner{
+    background-color: black;
+}
+
+header{
+     background-color: black;
+     padding: 1px;
+     padding-left: 20px;
+}
+
+footer{
+    background-color: black;
+    padding: 1px;
+    padding-left: 20px;
+    font: bold;
+}
+
+#asiderightbooking{
+    text-align: right;
+    color: red;
+}
+
+#profilecaption{
+    text-align: left;
+}
+
+h3{
+    display: inline;
+}
+
+#catoftheweekbook{
+    text-align: right;
+    color: red;
+}
+
+#contact{
+    color: white;
+}
+
+nav{
+    padding: 10px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#maillink{
+    color: red;
+}
+
+.ipsumdiv{
+    padding-left: .25rem;
+}
