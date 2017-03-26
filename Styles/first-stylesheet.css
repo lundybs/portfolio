@@ -10,7 +10,10 @@
 #navbar:hover{
     /*height: 2.5vmin;*/
     font-weight: 700;
-    
+}
+
+#menulink{
+    padding-left: .5rem;
 }
 
 .footsection{
@@ -22,7 +25,7 @@
 
 #copyright{
     text-align: center;
-    color: orangered;
+    color: black;
 }
 
 header{
