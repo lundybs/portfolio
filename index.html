@@ -1,27 +1,35 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Main Page</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="kitty_to_go/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="first-stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="Styles/font-awesome/fonts/" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bevan" > 
+    <link rel="stylesheet" type="text/css" href="Styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/first-stylesheet.css" />
 </head>
 <body>
     <header>
-        <h1>HTML 5 Project Page</h1>
+        <h1 id="mainheading">HTML 5 Project Page</h1>
         <nav id="navbar">
-            <a href="index.html">Home</a>
-            <a href="aboutpage.html">About Me</a>
+            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            <a href="aboutpage.html"><i class="fa fa-info-circle" aria-hidden="true"></i> About Me</a>
         </nav>
     </header>
     <main id="indexmain">
-        <h1>Home Page</h1>
+        <h1 id="indexmaintitle">Home Page</h1>
         <article class="indexarticle">
             <h4>List of project for HTML 5 class</h4>
             <ul>
                 <li><a href="sementic_tags/index.html">Sementic Tag Page</a></li>
                 <li><a href="kitty_to_go/index.html">Kitty To Go Project</a></li>
             </ul>
+
+            <section>
+                <p>Hover over the below icon to watch some animaition.</p>
+                <div class="animationicon"></div>
+            </section>
         </article>
     </main>
     <footer class="footsection">
